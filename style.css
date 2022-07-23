@@ -1,0 +1,313 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+  background-color: #0a2f57;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+p{
+  color: #2f2e33;
+  padding-left:7em;
+  padding-right: 7em;
+  font-size: 140%;
+}
+
+
+/* NAV BAR */
+#firstPage ul{
+  list-style-type: none;
+  background-color: #0a2f57;
+  overflow: hidden;
+  padding: 1em;
+  color: white;
+}
+#firstPage li{
+  display: inline;
+}
+#firstPage li a{
+  text-decoration: none;
+  font-size: 2em;
+  padding: 1em;
+  color: white;
+}
+#firstPage li a:hover{
+  background-color: #dee3e7;
+  color:#0a2f57;
+}
+
+/* INTRO DIV */
+#textImageContainer {
+  /* Add a background image */
+  background-image: url('assets/main.jpeg');/* img is in the assets folder, so start with 'assets/'
+
+  /* Tint the background */  
+  background-color: rgba(50,50,80,.25); /* Try changing the rgba values for a different tint */
+  background-blend-mode: multiply;
+  
+  height: 45em;
+  background-position-y: -10em; /* Move the image up */
+
+  
+  background-attachment: fixed; /* Make the image stay at the same spot */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#textOverImage {
+  width: 60%;
+  text-align: center;
+  padding: 9em;
+  height: 45em;
+  /* center div */
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+}
+#textOverImage h1{
+  color: white;
+  font-size: 600%;
+  margin-top: 1em;
+}
+#textOverImage h2{
+  font-size: 200%;
+}
+/* SECOND DIV */
+#content1{
+  text-align: center;
+  padding: 4em;
+  height: 22em;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #c6e2eb; 
+
+}
+#content1 h1{
+  color: #386a7a;
+  font-size: 350%;
+  padding-bottom: 1em;
+  text-decoration: underline;
+}
+
+/* THIRD DIV AKA VIDEO PART */
+
+#videoFrame{
+  height: 39em;
+  background-color: #c7e1d3; 
+}
+#videoFrame h2{
+  padding-top: 2em;
+  font-size: 185%;
+  color: #30503f;
+  padding-bottom: 1em;
+  text-decoration: underline;
+}
+/* FOURTH DIV*/
+
+#content2{
+  height: 39em;
+  background-color: #e8d8ee; 
+}
+#content2 h1{
+  padding-top: 1em;
+  font-size: 300%;
+  color: #480698;
+  padding-bottom: 0.6em;
+  text-decoration: underline;
+}
+/* STYLE IMAGES */
+#content2 img{
+  padding-top: 1em;
+  border-radius: 12px;
+}
+#firstOne{
+  width: 504px;
+  height: 322px;
+}
+/* FIFTH DIV AKA FACTS PART*/
+
+#facts{
+  height: 34em;
+  background-color: #eac2d6; 
+}
+#facts h1{
+  padding-top: 0.8em;
+  font-size: 300%;
+  color:  #6e1140;
+  text-decoration: underline;
+  padding-bottom: 1em;
+}
+#aboveFactArea{
+  padding-bottom: 1em;
+  font-size: 150%;
+}
+#factArea{
+  font-size: 200%;
+  font-weight: bold;
+  padding-top: 1.5em;
+  padding-bottom: 1em;
+}
+  
+#factsButton {
+    margin-top: 1em;
+    background-color: white;
+    border-radius: 12px;
+    border: 1.5px solid #960303;
+    padding: 20px 15px;
+    margin-top: 15px;
+    color: red;
+    transition-duration: 0.25s;
+    font-weight: bold;
+  font-size: 150%;
+  padding-left: 1em;
+  padding-right: 1em;
+
+}
+
+#factsButton:hover {
+  background-color: #d96363; /* Green */
+  color: white;
+  font-weight: bold;
+}
+facts a{
+  padding-top: 1em;
+}
+#facts a:link{
+  color: #565558;
+}
+#facts a:hover{
+  color: white;
+}
+#facts a:visited{
+  color: #565558;
+}
+
+/* LAST DIV AKA FOOTER */
+#footer{
+  background-color:  #a30f59;
+  padding: 1.2em 0em;
+}
+#footer p{
+  color: white;
+}
+#footer a{
+  font-weight: bold;
+}
+#footer a:link{
+  color: #bab7c2;
+}
+#footer a:hover{
+  color: white;
+}
+#footer a:visited{
+  color: #bab7c2;
+}
+
+/* -------------------------------- */
+/* Second page */
+/* 1st div*/
+
+#taIntro{
+  text-align: center;
+  padding: 4em;
+  height: 18em;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #c6e2eb; 
+
+}
+#taIntro h1{
+  color: #386a7a;
+  font-size: 350%;
+  padding-bottom: 1em;
+  text-decoration: underline;
+}
+/* 2nd div*/
+
+#taLearnMore{
+  height: 42em;
+  background-color: #c7e1d3; 
+}
+#taLearnMore h1{
+  padding-top: 1em;
+  font-size: 350%;
+  color: #30503f;
+  padding-bottom: 0.7em;
+  text-decoration: underline;
+
+}
+#resources ul{
+  padding-top: 1em;
+}
+#resources li{
+  padding-top: 1em;
+  font-weight: bold;
+  font-size: 170%;
+}
+#resources a{
+  color: #178c08;
+
+}
+#resources a:hover{
+  color: #2f2e33;
+}
+#resources p{
+  color: #2f2e33;
+    padding-left: 7em;
+    padding-right: 7em;
+    padding-top: 0.6em;
+    font-size: 85%;
+  font-weight: 300;
+}
+/* 3rd div*/
+
+#taPersonalizedText{
+  height: 30em;
+  background-color: #eac2d6; 
+}
+#taPersonalizedText h1{
+  padding-top: 0.8em;
+  font-size: 300%;
+  color:  #6e1140;
+  text-decoration: underline;
+  padding-bottom: 1em;
+}
+
+label{
+  color: #2f2e33;
+  font-size: 180%;
+  padding: 0em 1em;
+  font-weight: bold;
+}
+input{
+  width: 250px;;
+  height:30px
+}
+#messageButton{
+  margin: auto;
+  width: 50%;
+}
+#getMessage{
+  margin-top: 2em;
+  background-color: white;
+    border-radius: 12px;
+    border: 1.5px solid #960303;
+    padding: 20px 15px;
+    color: #d96363;
+    transition-duration: 0.25s;
+    font-weight: bold;
+  font-size: 150%;
+}
+#getMessage:hover {
+  background-color: #d96363; /* Green */
+  color: white;
+  font-weight: bold;
+}
+#secret{
+  padding-top:1.2em;
+}
